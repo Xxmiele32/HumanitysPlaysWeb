@@ -1,0 +1,26 @@
+.fondog {
+    position: absolute; /* Permite usar left y transform */
+    left: 50%; /* Mueve el rectángulo al 50% del ancho del contenedor */
+    transform: translateX(-50%); /* Ajusta el centro exacto */
+    width: 70%; /* Ancho del rectángulo en porcentaje */
+    height: 70%; /* Alto del rectángulo en porcentaje */
+    background-color: rgba(0, 0, 0, 0.4); /* Fondo semitransparente */
+    color: white; /* Color del texto */
+    display: flex; /* Opcional: para centrar el contenido interno */
+    align-items: center; /* Centra verticalmente el contenido interno */
+    border: 3px solid black;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+
+}
+h1 {
+  color: black;
+  margin-bottom: 20px;
+
+}
+
+p {
+  margin: 50px; /* Espacio alrededor del párrafo */
+  text-align: justify;
+}
